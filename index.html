@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compound Interest Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <style>input[type=number] {
-        -moz-appearance: textfield;
-      }</style>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+    <!--TO HIDE THE UP/DOWN KEYS IN INPUT NUMBER FIELD-->
 </head>
 
 <body>
@@ -42,6 +45,10 @@
                 <option value="">Monthly</option>
             </select>
         </div>
+        <br>
+        
+            <button class="btn" type="submit"  onclick="calculateInterest()">Calculate</button>
+        
         </p>
     </div>
 </body>
